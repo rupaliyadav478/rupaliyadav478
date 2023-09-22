@@ -1,0 +1,10 @@
+// Write a program to swap two numbers.
+class Swap{
+pablic static void main(String[] args){
+            int x=10,y=20,z;
+            z=x;
+            x=y;
+            x=z;
+        System.out.println(+x+"  "+y);
+}
+}
