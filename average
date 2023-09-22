@@ -1,0 +1,7 @@
+// Write a program to find the average of 5 numbers.
+class Average{
+        public static void main(string[] args){
+            int number1=10,number2=10,number3=10,number4=10,number5=10;
+              System.out.println((+number1+number2+number3+number4+number5)/2);
+}
+}
