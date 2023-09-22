@@ -1,0 +1,14 @@
+5. 5. Write a program to check if number is even or odd, print “Even” if number is even else print “Odd” if number is odd.
+class Even{
+               public static void main(String[] args)
+           {
+                int num=20;
+                 if(num%2==0)
+                  {
+                        System.out.println("even");
+                    }
+                   else
+                   {
+                       System.out.println("even");
+                   }
+}
