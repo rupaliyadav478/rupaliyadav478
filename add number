@@ -1,0 +1,8 @@
+// Write a program to add 5 numbers.
+
+class Addnum{
+        public static void main(string... args){
+            int number1=10,number2=10,number3=10,number4=10,number5=10;
+              System.out.println(+number1+number2+number3+number4+number5);
+}
+}
