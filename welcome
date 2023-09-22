@@ -1,0 +1,9 @@
+// Write a program to print "Welcome" 5 times Separated by space.\
+
+class Welcome{
+	public static void main(String args[]){
+
+    		System.out.println("Welcome Welcome Welcome Welcome Welcome");
+
+	}
+}
