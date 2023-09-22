@@ -1,0 +1,15 @@
+\\"4. Write a program to check if number is divisible by 3 & 7 or not, print ""Yes"" if number is divisible by 3 & 7 else print ""No"" if number
+    is not divisible by 3 & 7"
+class Divisible{
+     public static void main(String[] ardgs)
+{
+        int num=14;
+        if(num%3=0 & num%7=0)
+        {
+              System.out.println("yes");
+         }
+         else
+           {
+               System.out.println("no");
+            }
+}
