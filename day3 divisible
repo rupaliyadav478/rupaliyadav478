@@ -1,0 +1,17 @@
+/*3. Write a program to check whether a give number is divisible
+     by 7 OR 3, if any number is divisible by 7 or 3 print 
+     “Divisible”else print ”Not Divisible” "*/
+package div;
+public class Div {    
+    public static void main(String[] args) {
+        int a=20,b=16;
+        if(a%7==0 | b%3==0)
+        {
+            System.out.println("Divisible");
+        }
+        else
+        {
+            System.out.println("Not Divisible");
+        }
+    }
+}//output=Not Divisible
