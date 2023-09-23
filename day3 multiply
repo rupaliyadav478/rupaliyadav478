@@ -1,0 +1,14 @@
+//2. Write a program to multiply two numbers
+package multi;
+
+
+public class Multi {
+
+   
+    public static void main(String[] args) {
+        int a=10,b=8,c;
+        c=a*b;
+        System.out .println("c=a*b The multiply:"+c);
+    }
+}
+//outout=a*b The multiply:80
