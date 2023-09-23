@@ -1,0 +1,21 @@
+/*"1. Write a program to check given number is positive or negative 
+ * negative print""Positive"" if number is positive"Positive"
+ * "Positive" if number is positive else print "Negative"
+if number is negative."*/
+package posnegtive;
+
+public class Posnegtive {
+
+    public static void main(String[] args) {
+        int a=-15;
+        if(a>0)
+        {
+            System.out.println("positive");
+        }
+        else
+        {
+            System.out.println("Negative");
+        }
+        
+    }
+}
