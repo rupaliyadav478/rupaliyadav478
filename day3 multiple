@@ -1,0 +1,16 @@
+//Write a program to check given number is multiple of 5,
+// print "Yes" if number is multiple of 5 else print "NO"
+package multiply;
+public class Multiply {  
+    public static void main(String[] args) {
+        int number=25;
+        if(number%5==0){
+        System.out.println("yes");
+        }
+        else{
+            System.out.println("No");
+    }
+    }
+}//OUTPUT:yes
+
+
