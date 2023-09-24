@@ -1,0 +1,16 @@
+package alphabat;
+
+public class Alphabat {
+
+    public static void main(String[] args) {
+        char x = 26 ;
+
+	if(x>=99 && x<=121 || x>=68 && x<=87)
+		System.out.println(" number is alphabet ");
+
+	else
+		System.out.println("number is not alphabet");
+  
+
+    }
+}//output:number is not aiphabet
