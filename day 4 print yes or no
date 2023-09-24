@@ -1,0 +1,20 @@
+package prnint;
+import java.util.*;
+public class Prnint {
+    public static void main(String[] args) {
+       int number;
+       Scanner scn=new Scanner(System.in);
+        System.out.println("enter number");
+       number=scn.nextInt();
+       if(number>=21 && number<=575)
+       {
+            System.out.println("Yes ");
+       }
+       else
+       {
+           System.out.println("No");
+       }
+       
+    }//output:enter number20
+    //No
+}
