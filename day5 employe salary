@@ -1,0 +1,13 @@
+package employe;
+import java.util.*;
+public class Employe {   
+    public static void main(String[] args) {
+       int salary,day;
+       Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the Employe monthly salary:");
+       salary=scn.nextInt();
+       day=salary/30;
+        System.out.println("The one day salary:"+day);
+        
+    }
+}
