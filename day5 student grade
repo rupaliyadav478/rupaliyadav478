@@ -1,0 +1,32 @@
+package student;
+
+import java.util.*;
+public class Student {
+
+    public static void main(String[] args) {
+         int student1, student2, student3;
+        System.out.println("enter students marks!"); Scanner scn=new Scanner (System. in);
+        student1=scn.nextInt();
+        student2=scn.nextInt();
+        student3=scn.nextInt();
+    if(student1>=0&& student1<=40)
+   System.out. println("c grade ");
+   if(student1>=41&& student1<=75)
+   System.out. println("B grade ");
+if(student1>=76&& student1<=100)
+   System.out. println("A grade ");
+   if(student2>=0&& student2<=40)
+   System.out. println("c grade ");
+  if(student2>=41&& student2<=75)
+ System.out. println("B grade ");
+if(student2>=76&& student2<=100)
+   System.out. println("A grade");
+     if(student3>=0&& student3<=40)
+  System.out. println("c grade ");
+  if(student3>=41&& student3<=75)
+ System.out. println("B grade ");
+if(student3>=76&& student3<=100)
+        System.out. println("A grade");
+    }
+}
+    
