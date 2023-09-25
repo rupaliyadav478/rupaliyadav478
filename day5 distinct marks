@@ -1,0 +1,18 @@
+package exam;
+import java.util.*;
+public class Exam {
+    public static void main(String[] args) {
+       int Hindi,English,Maths;
+       Scanner scn=new Scanner(System.in);
+        System.out.println("Enter three subjects marks ");
+        Hindi=scn .nextInt();
+        English=scn .nextInt();
+        Maths=scn .nextInt();
+        if(Hindi>=English && Hindi>=Maths)
+            System.out.println("The distinct marks:"+Hindi);
+        if(English>=Hindi && English>=Maths)
+            System.out.println("The distinct marks:"+English);
+        if(Maths>=Hindi && Maths>=English)
+            System.out.println("The distinct marks"+Maths);
+    }
+}
