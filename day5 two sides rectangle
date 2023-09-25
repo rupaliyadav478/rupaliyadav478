@@ -1,0 +1,15 @@
+package rectangle;
+import java.util.*;
+public class Rectangle {
+
+    public static void main(String[] args) {
+        int l,p,w;
+     Scanner scn=new Scanner(System.in);
+        System.out.println("Enter value");
+        l=scn .nextInt();
+        w=scn .nextInt();
+        p=(l+w)*2;
+        System.out.println("Two sides of rectangle perameter:"+p);
+        
+    }
+}
