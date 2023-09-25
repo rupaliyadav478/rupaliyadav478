@@ -1,0 +1,12 @@
+package monthly;
+import java.util.*;
+public class Monthly {
+    public static void main(String[] args) {
+        int age;
+      Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the your age");
+      age=scn.nextInt();
+        System.out.println("The month :"+(age*12));
+      
+    }
+}
