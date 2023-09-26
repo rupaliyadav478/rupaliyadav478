@@ -1,0 +1,20 @@
+
+package alphaconsonant;
+import java.util.*;
+public class Alphaconsonant {
+    public static void main(String[] args) {
+        char character;
+        Scanner scn=new Scanner(System.in); 
+        System.out.println("Enter the alphabet vowel or consonant:");
+        character=scn.next().charAt(0);
+        if(character=='a'||character=='e'||character=='i'||character=='o'||character=='u'||character=='A'||character=='E'
+                ||+character=='I'||character=='O'||character=='U')
+        {
+            System.out.println(character+":it is vowel");
+        }
+        else if((character>='a'&&character<='z')||(character>='A'&& character<='Z'))
+        
+            System.out.println(character+":it is consonant");
+        
+}
+}
