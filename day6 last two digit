@@ -1,0 +1,14 @@
+package twodigit;
+import java.util.*;
+public class Twodigit {
+
+    
+    public static void main(String[] args) {
+       int lastdigit,number;
+	Scanner scn=new Scanner(System.in);
+	System.out.println("Enter the number");
+	number=scn.nextInt();
+	lastdigit=number%100;
+	System.out.println("The last digit ="+lastdigit);
+    }
+}
