@@ -1,0 +1,30 @@
+package week;
+
+import java.util.*;
+public class Week {
+
+    public static void main(String[] args) {
+       int weeknum;
+       Scanner scn=new Scanner(System.in);
+        System.out.println("Enter week number:");
+        weeknum=scn.nextInt();
+        if( weeknum==0)
+        
+            System.out.println(weeknum+":sunday ");
+        
+         else if(weeknum==1)
+                System.out.println(weeknum+"monday");
+         else if(weeknum==2)
+              System.out.println(weeknum+":tuesday");
+         else if(weeknum==3)
+          System.out.println(weeknum+":wednesday");
+         else if(weeknum==4)
+              System.out.println(weeknum+":Tharseday");
+         else if(weeknum==5)
+              System.out.println(weeknum+":Friday");
+         else if(weeknum==6)
+              System.out.println(weeknum+"suterday");
+             
+              }
+    
+}
