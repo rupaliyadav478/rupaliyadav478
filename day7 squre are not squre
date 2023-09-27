@@ -1,0 +1,22 @@
+package squre;
+import java.util.*;
+public class Squre {
+
+  
+    public static void main(String[] args) {
+    int length,width;
+    Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the value of length:");
+        length=scn.nextInt();
+        System.out.println("Enter the value of width:");
+        width=scn.nextInt();
+        if(length==width)
+        {
+            System.out.println("It is squre");
+        }
+        else
+        {
+            System.out.println("It is not squre");
+        }
+    }
+}
