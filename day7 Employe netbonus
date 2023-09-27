@@ -1,0 +1,23 @@
+
+package bonus;
+import java.util.*;
+public class Bonus {
+    public static void main(String[] args) {
+      int salary,bonus,year;
+      Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the Employe salary:");
+        salary=scn.nextInt();
+         System.out.println("Enter the  year:");
+        year=scn.nextInt();
+        if(year>5)
+        {
+            System.out.println("The salary:"+salary);
+            bonus=salary*5/100;
+            System.out.println(" give bonus:"+bonus);           
+        }
+        else
+        {
+            System.out.println("Not give bouns");
+        }
+    }
+}
