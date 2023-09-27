@@ -1,0 +1,24 @@
+
+package traingl;
+
+import java.util.*;
+public class Traingl {
+    public static void main(String[] args) {
+       int side1,side2,side3,total;
+       Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the side1:");
+        side1=scn.nextInt();
+        System.out.println("Enter the side1:");
+        side2=scn.nextInt();
+        System.out.println("Enter the side1:");
+        side3=scn.nextInt();
+        total=side1+side2+side3;
+        System.out.println("The total:"+total);
+        if(total==180 && total>=0)
+             System.out.println("It is valid traingle");           
+        else
+            System.out.println("It is invalid traingle");
+       
+        
+    }
+}
