@@ -1,0 +1,19 @@
+
+package absolute;
+import java.util.*;
+public class Absolute {
+    public static void main(String[] args) {
+      int negative;
+      Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the value of positive or negative number:");
+             negative=scn.nextInt();
+
+        
+          if(negative<0)
+          {
+              negative=(-1)*negative;
+          }
+          System.out.println("The absolute number:"+negative);
+
+    }
+}
