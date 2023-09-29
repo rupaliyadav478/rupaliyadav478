@@ -1,0 +1,19 @@
+
+package firstdigit;
+import java.util.*;
+public class Firstdigit {
+
+    public static void main(String[] args) {
+    int digits ;
+    Scanner scn=new Scanner(System.in);
+    System.out.println("Enter the digits:");
+    digits=scn.nextInt();
+    if(digits!=1000)
+    {
+         
+         digits=digits/1000;
+        System.out.println("The frst digit is:"+digits);
+    }
+    
+    }
+}
