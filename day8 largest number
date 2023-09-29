@@ -1,0 +1,28 @@
+
+package largest;
+import java.util.*;
+public class Largest {
+
+    public static void main(String[] args) {
+       int num1,num2,num3 ,num4;
+       Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the first number:");
+        num1=scn.nextInt();
+        System.out.println("Enter the secound number:");
+        num2=scn.nextInt();
+        System.out.println("Enter the third number:");
+        num3=scn.nextInt();
+        System.out.println("Enter the fourth number:");
+        num4=scn.nextInt();
+        if(num1>num2)
+            System.out.println("the large number is:"+num1);
+        else if(num2>num3)
+            System.out.println("The large number is:"+num2);
+        else if(num3>num4)
+             System.out.println("The large number is:"+num3);
+        else if(num4>num2)
+            System.out.println("The latge number is:"+num4);
+        else
+            System.out.println(".....");
+    }
+}
