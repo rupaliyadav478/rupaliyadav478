@@ -1,0 +1,27 @@
+package incredecr;
+import java.util.*;
+public class Incredecr {
+
+   
+    public static void main(String[] args) {
+        int number1,number2,number3;
+        Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the number1:");
+        number1=scn.nextInt();
+        System.out.println("Enter the number2:");
+        number2=scn.nextInt();
+        System.out.println("Enter the number3:");
+        number3=scn.nextInt();
+        if(number1<number2 && number2<number3)
+        {
+            System.out.println("increasing order");
+        }
+        else if(number1>number2 && number2>number3)
+        {
+            System.out.println("Decreasing order");
+        }
+        else
+        {
+            System.out.println("NO increasing order NO Decreasing order");
+        }
+    }
