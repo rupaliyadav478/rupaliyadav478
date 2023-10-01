@@ -1,0 +1,15 @@
+
+package onedigit;
+import java.util.*;
+
+public class Onedigit {
+
+    public static void main(String[] args) {
+             int digit;
+             Scanner scn=new Scanner(System.in);
+             digit=scn.nextInt();
+             digit=digit/10;
+             System.out.println(+digit);  
+}
+}
+
