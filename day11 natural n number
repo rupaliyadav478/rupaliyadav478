@@ -1,0 +1,14 @@
+
+package naturaln;
+import java.util.*;
+public class Naturaln {
+
+    public static void main(String[] args) {
+      int number;
+      Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the number:");
+        number=scn.nextInt();
+        for(int i=1;i<=number;i++)
+            System.out.println("The natural number:"+i);
+    }
+}
