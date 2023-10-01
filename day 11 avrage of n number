@@ -1,0 +1,16 @@
+package averag;
+import java.util.*;
+public class Averag {
+
+    public static void main(String[] args) {
+       int number , sum=0;
+       Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the number :");
+        number=scn.nextInt();
+        for( int i=1;i<=number;i++){
+            sum=sum+i;
+        }
+        sum/=number;
+        System.out.println("The average of number :"+sum);
+    }
+}
