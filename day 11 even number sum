@@ -1,0 +1,12 @@
+
+package evensum;
+
+public class Evensum {
+
+   
+    public static void main(String[] args) {
+       int  sum=0;
+       for( int i=0;i<=26;i=i+2)
+       sum=sum+i;
+      System.out.println("The sum of even number"+sum);
+    }
