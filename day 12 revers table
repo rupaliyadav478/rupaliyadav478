@@ -1,0 +1,19 @@
+
+package tablerevers;
+import java.util.*;
+public class Tablerevers {
+
+   
+    public static void main(String[] args) {
+        int num,num2;
+        Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the number");
+        num=scn.nextInt();
+        System.out.println("Enter the number");
+        num2=scn.nextInt();
+       for(int i=num;i>=num2;i=i-num2)
+       {
+           System.out.println("The  table :"+i);
+       }
+    }
+}
