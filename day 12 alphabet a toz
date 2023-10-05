@@ -1,0 +1,16 @@
+package albhbetatoz;
+import java.util.*;
+public class Albhbetatoz {
+
+    
+    public static void main(String[] args) {
+         char alphbet;
+        Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the alphabet:");
+       alphbet=scn.next().charAt(0);
+        for(char i=alphbet;i<='z';i++)
+        {
+            System.out.println(" Alphabet :"+i);
+        }
+    }
+}
