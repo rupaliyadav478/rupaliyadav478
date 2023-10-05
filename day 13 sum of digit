@@ -1,0 +1,15 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+       int num,digit=1,sum=0;
+        Scanner sc=new Scanner(System.in);
+        num=sc.nextInt();
+        while(num>0)
+        {
+        digit=num%10;
+         sum=sum+digit;
+          num/=10;
+        }
+            System.out.println(+sum);
+    }
+}
