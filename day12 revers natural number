@@ -1,0 +1,17 @@
+
+package reversnatural;
+import java.util.*;
+public class Reversnatural {
+
+   
+    public static void main(String[] args) {
+        int number;
+        Scanner scn=new Scanner(System.in);
+        System.out.println("Enter the number:");
+        number=scn.nextInt();
+        for(int i=1;number>=i;number--)
+        {
+            System.out.println("The revers order of natural number :"+number);
+        }
+    }
+}
