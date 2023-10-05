@@ -1,0 +1,17 @@
+package numberfactorial;
+public class Numberfactorial {
+     public static void main(String[] args) {
+        int num=12345;
+        while(num>0){
+           int  temp=num;
+          int digit=1,sum=1;
+            while(temp>0){
+                digit=temp%10;
+                sum=sum*digit;
+                temp/=10;
+            }
+            System.out.println(+sum);
+            num/=10;
+        }
+    }
+}
