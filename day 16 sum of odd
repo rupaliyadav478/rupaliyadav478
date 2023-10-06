@@ -1,0 +1,16 @@
+import java.util.*;
+public class Oddnumber {
+  public static void main(String[] args) {
+   int num,sum=0,i,total=0;
+   Scanner scn=new Scanner(System.in);
+        num=scn.nextInt();  {
+       for( i=1;i<=10;i=i+2) {
+          
+          System.out.print(i+"\t " );
+             sum=sum+i;
+       }
+        total=sum;
+      System.out.println("The total of Odd number is :"+total);
+        }
+    }
+}
