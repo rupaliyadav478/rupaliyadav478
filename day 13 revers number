@@ -1,0 +1,20 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+      int num,digit=1;
+      Scanner scn=new Scanner(System.in);
+      num=scn.nextInt();
+        while(num>0){
+            int temp=0;
+            temp=num;
+        while(temp>0){
+               digit=num%10;
+               temp/=10;  
+            }
+            
+   System.out.println("The revers number is\t :"+digit); 
+   num/=10;
+        }
+        }
+}       
+       
