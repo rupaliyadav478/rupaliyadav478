@@ -1,0 +1,14 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+int num;
+Scanner scn=new Scanner(System.in);
+num=scn.nextInt();
+     for(int i=1;i<=num/2;i++)
+      if(num%i==0)
+     {
+System.out.print(" \t "+i);
+   }
+  
+    }
+}
