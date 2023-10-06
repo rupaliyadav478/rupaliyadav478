@@ -1,0 +1,17 @@
+import java.util.*;
+class HelloWorld {
+ public static void main(String[] args) {
+ int n,digit=0,num,multi=0;
+ Scanner scn=new Scanner(System.in);
+ System.out.println("Enter the value of n :");
+ n=scn.nextInt();
+ System.out.println("Enter the num:");
+ num=scn.nextInt();
+ for(int i=1;i<=n;i++) {
+     digit=num%10;
+     multi=digit*digit*digit;
+     num/=10;
+System.out.println("Cube is a num:"+multi);
+ }
+    }
+}
