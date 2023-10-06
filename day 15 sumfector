@@ -1,0 +1,15 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+int num,sum=0,i;
+Scanner scn=new Scanner(System.in);
+num=scn.nextInt();
+     for( i=1;i<=num/2;i++)
+      if(num%i==0)
+     {
+         sum=sum+i;
+         
+     }
+    System.out.print(+sum);
+    }
+}
