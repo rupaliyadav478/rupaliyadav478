@@ -1,0 +1,22 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+int num,squar=0,digit=1,sum=0,temp=1;
+      Scanner scn=new Scanner(System.in);
+      System.out.println("Enter the number : ");
+      num=scn.nextInt();
+        while(num>0){
+                digit=num%10;
+     squar=squar*10+digit;
+                num/=10;
+        }
+         while(squar>0){
+                temp=squar%10;
+                System.out.println(+(temp*temp));
+     sum=sum+(temp*temp);
+                squar/=10;
+        }
+System.out.println("The squar :"+sum);
+            }
+            
+        }
