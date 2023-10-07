@@ -1,0 +1,23 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+      int num,n=0,sum=0;
+      System.out.println("Enter number");
+Scanner scn=new Scanner(System.in);
+num=scn.nextInt();
+     
+for(int j=1;j<=num;j++)
+  {
+      for(int i=j;i<=j;i++){
+          n=n*10+2;
+      }
+      
+      System.out.println("series number :"+n);
+        sum=sum+n;
+  } 
+ System.out.println("The sum :"+sum);
+  }
+  
+}       
+
+
