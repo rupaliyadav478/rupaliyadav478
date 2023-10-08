@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main {
+public static void main(String[] arg){
+int num,sum=0,digit=0,add,pow=0,temp,cal=0;
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter number=");
+num=sc.nextInt();
+temp=num;
+     while(num>0){
+	      digit=num%10;
+	      sum=sum*10+digit;
+	      num/=10;  }
+	  while(sum>0){
+	     add= sum%10;
+	     pow=add*add*add*add;
+	     cal=cal+pow;
+	     sum/=10; }
+	 if(temp==cal) 
+System.out.println("yes number is armstrong");
+	    else  {
+System.out.println("no number is not armstrong");   }
+	}
+}
+
