@@ -1,0 +1,23 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+   int num,i,count, c;
+ Scanner scn=new Scanner(System.in);
+ System.out.println("Enter the num:");
+i=scn.nextInt();
+ num=scn.nextInt();
+for(count = 2; count <= num; i++) {
+  for(c = 2; c < i; c++) {
+            if(i%c == 0)
+                break;
+        }
+        if(c == i)  {
+           System.out.println(+i);
+            count++;  
+        }
+        if(num==i)
+            break;
+    }
+        
+    }
+}
