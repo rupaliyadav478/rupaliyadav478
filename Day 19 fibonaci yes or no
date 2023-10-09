@@ -1,0 +1,22 @@
+import java.util.Scanner;
+ public class FibonacciSeries 
+{    
+    public static void main(String[] args) 
+    {
+      int Number, ft=0,st=1,tt=0;
+Scanner sc = new Scanner(System.in);
+ System.out.println("Enter positive number :");
+  Number = sc.nextInt();
+        while (tt<Number)  {
+            tt = ft + st;
+           ft = st;
+            st = tt;
+        }
+        if(tt == Number){
+ System.out.println(" yes number is fibonaci");
+        }
+        else {
+ System.out.println("no number is not fibonaci ");
+        }
+    }   
+}
