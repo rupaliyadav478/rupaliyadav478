@@ -1,0 +1,16 @@
+import java.util.*;
+class Fibonochi {
+   public static void main(String[] args) {
+      int num,i,fn=0,n1=0,n2=1;
+ Scanner scn=new Scanner(System.in);
+System.out.println("Enter number:");
+          num=scn.nextInt();
+        for(i=1;i<num;i++){
+           fn=n1+n2;
+           n2=n1;
+           n1=fn;
+        
+        }
+        System.out.println(+fn); 
+    }
+}
