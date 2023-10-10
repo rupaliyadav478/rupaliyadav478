@@ -1,0 +1,11 @@
+class Hcfnumber {
+public static void main(String[]args){
+int num=20,num1=28,hcf=0,i;
+  for( i=1;i<=num || i<=num1;i++){
+if(num%i==0 & num1%i==0){
+hcf=i;
+}
+ }    
+System.out.println(+hcf);
+}
+}
