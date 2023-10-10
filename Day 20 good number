@@ -1,0 +1,11 @@
+class Goodnumber {
+public static void main(String[]args){
+int num[]={2,5,8,2};
+if(num[0]%2==0 && num[2]%2==0){
+    System.out.println("it is good number");
+}
+else{
+System.out.println("it is not good number");
+}
+}
+}
