@@ -1,0 +1,19 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        int row;
+     System.out.print("enter the vlaue of row");
+     Scanner sc=new Scanner(System.in);
+     row=sc.nextInt();
+   for(int i=1;i<=row;i++){
+       for(int j=1;j<=i;j++){
+           System.out.print(j);
+       }
+           System.out.print(" ");
+           for(int k=i;k>=1;k--){
+           System.out.print(+k);
+       }
+    System.out.print("\n");
+   }
+}
+}
