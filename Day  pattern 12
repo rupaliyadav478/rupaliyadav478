@@ -1,0 +1,24 @@
+import java.util.*;
+class HelloWorld {
+    public static void mai(String[]args) {
+        int row;
+ System.out.print("enter the value of row");
+        Scanner sc=new Scanner(System.in);
+        row =sc.nextInt();
+   for(int i=row;i>=1;i--){
+       for(int j=i;j>=1;j--){
+           System.out.print("*"); }
+   System.out.print("  ");
+      for(int j=i;j>=1;j--){
+           System.out.print("*"); }
+        System.out.print("\n");}
+   for(int i=1;i<=row;i++){
+       for(int j=i;j>=1;j--){
+           System.out.print("*");  }
+      System.out.print("  ");
+      for(int j=i;j>=1;j--){
+           System.out.print("*");  }
+        System.out.print("\n");
+   }
+    }
+}
