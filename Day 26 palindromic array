@@ -1,0 +1,28 @@
+import java.util.*;
+public class Javaapplication140 {
+    public static void main(String[]args){
+     
+    System.out.println("enter the value of array size");
+    Scanner s=new Scanner(System.in);
+    int num=s.nextInt();
+    int arr[]=new int [num];
+    for(int i=0;i<num;i++){
+        arr[i]=s.nextInt();
+    }
+        int palindrom1=1;
+  for(int i=0;i<num;i++){
+        int x=arr[i];
+          int temp=0;
+     while(x!=0){
+           temp=temp*10+x%10;
+           x/=10;
+        }
+        if(temp!=arr[i]){
+           palindrom1=0;
+            break;
+        }
+    }
+     System.out.println(palindrom1);
+        
+    }
+} 
