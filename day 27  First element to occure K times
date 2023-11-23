@@ -1,0 +1,30 @@
+import java.util.*;
+class occur{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int no,tmp=0;
+        System.out.println("enter the number:");
+        no=sc.nextInt();
+        int arr[]=new int[no];
+        System.out.println("Enter the elements of arr: ");
+        for(int i=0;i<no;i++){
+            arr[i]=sc.nextInt();
+            arr[tmp]=arr[i];
+        }
+        int k;
+        System.out.println("Enter the index value of arr: ");
+        k=sc.nextInt();
+        for(int i=0;i<no;i++){
+            int count=0;
+            for(int j=0;j<no;j++){
+                if(arr[i]==arr[j]){
+                    count++;
+                }
+            }
+            if(count==k){
+                System.out.println(arr[i]);
+                break;
+            }
+        }
+    }
+}
