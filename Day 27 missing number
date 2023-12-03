@@ -1,0 +1,20 @@
+import java .util.*;
+class missingnum{
+    public static void main(String[]args){
+        int N;
+        Scanner sc=new Scanner(System.in);
+        // System.out.println("Enter the value of kth element:");
+        // k=sc.nextInt();
+        System.out.println("Enter the value of N:");
+        N=sc.nextInt();
+        int A[]=new int [N];
+        System.out.println("Enter the Element of Array:");
+        int sum=0,i=0;
+        sum=(N+1)*(N+2)/2;
+        while(i<N){
+            sum=sum-A[i];
+            i++;
+        }
+        System.out.println(sum);
+    }
+}
